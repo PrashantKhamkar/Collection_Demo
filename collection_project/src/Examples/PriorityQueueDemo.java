@@ -18,13 +18,13 @@ public class PriorityQueueDemo {
 
         //Get head element
 
-//        System.out.println(p.element());
-//        System.out.println(p.peek());
+//        System.out.println(p.element()); //return head, exception if queue is empty
+//        System.out.println(p.peek());    //return null if queue is empty
 
         //retain and remove element from the queue
-//        System.out.println(p.remove());
+//        System.out.println(p.remove());   //exception if queue is empty
         System.out.println(p);
 
-        System.out.println(p.poll());
+        System.out.println(p.poll());       //remove & return head, return null if empty
     }
 }
